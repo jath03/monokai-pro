@@ -1,7 +1,8 @@
-[theme]
+[color-theme]
 name = "{{theme.name}}"
+color-preference = "dark"
 
-[theme.base]
+[color-theme.base]
 white = "{{theme.colors.base8}}"
 black = "{{theme.colors.base0}}"
 grey = "{{theme.colors.base4}}"
@@ -14,7 +15,7 @@ purple = "{{theme.colors.purple}}"
 cyan = "{{theme.colors.blue}}"
 magenta = "{{theme.colors.purple}}"
 
-[theme.syntax]
+[color-theme.syntax]
 "comment" = "$grey"
 "constant" = "$yellow"
 "type" = "$yellow"
@@ -42,7 +43,7 @@ magenta = "{{theme.colors.purple}}"
 "escape" = "$cyan"
 "embedded" = "$cyan"
 
-[theme.ui]
+[color-theme.ui]
 "lapce.active_tab" = "$black"
 "lapce.inactive_tab" = "$grey"
 "lapce.error" = "$red"
